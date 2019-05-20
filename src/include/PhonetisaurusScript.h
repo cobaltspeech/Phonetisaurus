@@ -37,6 +37,7 @@
 #ifndef SRC_INCLUDE_PHONETISAURUSSCRIPT_H_
 #define SRC_INCLUDE_PHONETISAURUSSCRIPT_H_
 #include "PhonetisaurusRex.h"
+#include <include/util.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <string>

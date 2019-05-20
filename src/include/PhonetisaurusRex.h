@@ -70,7 +70,7 @@ typedef unordered_map<int, vector<int> > SymbolMap12M;
 typedef unordered_map<vector<int>, int, VectorIntHash> SymbolMapM21;
 typedef unordered_set<int> VetoSet;
 
-int LoadClusters (const SymbolTable* syms, SymbolMap12M* clusters,
+inline int LoadClusters (const SymbolTable* syms, SymbolMap12M* clusters,
                   SymbolMapM21* invclusters) {
   /*
     Compute the set of 'clustered' graphemes learned during
